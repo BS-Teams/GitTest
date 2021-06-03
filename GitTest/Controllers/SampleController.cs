@@ -11,6 +11,7 @@ namespace GitTest.Controllers
         // GET: Sample
         public ActionResult Index()
         {
+            ViewData["Info"] = "Hi";
             return View();
         }
     }
